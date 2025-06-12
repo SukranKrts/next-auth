@@ -1,7 +1,12 @@
-function Home(){
-    return(
-        <div>Home Page</div>
-    )
+import MyAppbar from "../components/MyAppbar";
+
+function Home() {
+
+    return (
+        <div>
+            <MyAppbar/>
+        </div>
+    );
 }
 
 export default Home;
